@@ -12,3 +12,7 @@ app.use('/livros', rotaLivro)
 app.use('/favoritos', rotaFavorito)
 
 const port = 8000
+
+app.listen(port, () => {
+    console.log(`Escutando a porta ${port}`)
+})
